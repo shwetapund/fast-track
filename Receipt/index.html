@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+    <style>
+        .text-center{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: -5px;
+        }
+        .display-flex{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .receipt-container{
+            height: 590px;
+            border-radius: 5px;
+            width: 350px;
+            padding: 20px;
+            border: 1px solid black;
+            display: block;
+            margin: 50px auto;
+        }
+        .margin-top{
+            margin-top: -20px;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        .design{
+            margin-top: -5px;
+        }
+        .hr-line{
+            border-bottom: 1px dashed black;  
+        }
+        .thank-you-text{
+            text-align: center;
+            
+        }
+        .total-text{
+            margin-top: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="receipt-container">
+        <h1 class="text-center">Bhaji Market</h1>
+        <h3 class="text-center margin-top">Address: Lotus Hospital, Pune, 23-12</h3>
+        <h3 class="text-center margin-top hr-line">Telp, 2253253556</h3>
+       <h2 class="text-center hr-line">CASH RECEIPT</h2>
+    
+       <div class="display-flex hr-line">
+        <div>
+            <p class="bold design">Description</p>
+            <p>Bhendi</p>
+            <p>Baingan</p>
+            <p>Vatana</p>
+            <p>Shimla Mirchi</p>
+        </div>
+        <div>
+            <p class="bold design">Price</p>
+            <p>50 Rs 1Kg</p>
+            <p>40 Rs 1Kg</p>
+            <p>80 Rs 1Kg</p>
+            <p>100 Rs 1Kg</p>
+        </div>
+       </div>
+
+       <div class="display-flex hr-line">
+        <div>
+            <h2 class="bold design total-text">Total</h2>
+            <p>Cash</p>
+            <p>Change</p>
+        </div>
+        <div>
+            <p class="bold design total-text">270 Rs</p>
+            <p>300 Rs</p>
+            <p>30 Rs</p>
+            
+        </div>
+       </div>
+
+       <div class="display-flex hr-line">
+        <div>
+            <p>Bank Card</p>
+            <p>Approval Code</p>
+        </div>
+        <div>
+
+            <p>234</p>
+            <p>#223623</p>
+            
+        </div>
+       </div>
+      
+       <h2 class="thank-you-text">THANK YOU</h2>
+    </div>
+</body>
+
+</html>
